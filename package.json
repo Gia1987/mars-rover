@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple project with a single failing test",
   "scripts": {
-    "test": "mocha test/**/*spec.js"
+    "test": "mocha src/test/**/*spec.js --watch"
   },
   "dependencies": {
     "chai": "^4.1.2",
